@@ -170,7 +170,7 @@
 
     <!-- Display carrier settings menu if true -->
     <!-- DEPRECATED: Use CarrierConfigManager#KEY_CARRIER_SETTINGS_ENABLE_BOOL -->
-    <bool name="config_carrier_settings_enable">false</bool>
+    <bool name="config_carrier_settings_enable">true</bool>
     <!-- carrier settings menu -->
     <string name="carrier_settings" translatable="false"></string>
     <string name="carrier_settings_menu" translatable="false"></string>
