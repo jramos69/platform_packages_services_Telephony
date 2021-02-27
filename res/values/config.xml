@@ -170,7 +170,7 @@
 
     <!-- Display carrier settings menu if true -->
     <!-- DEPRECATED: Use CarrierConfigManager#KEY_CARRIER_SETTINGS_ENABLE_BOOL -->
-    <bool name="config_carrier_settings_enable">false</bool>
+    <bool name="config_carrier_settings_enable">true</bool>
     <!-- carrier settings menu -->
     <string name="carrier_settings" translatable="false"></string>
     <string name="carrier_settings_menu" translatable="false"></string>
@@ -224,7 +224,7 @@
     <bool name="config_pstnCanPlaceEmergencyCalls">true</bool>
 
     <!-- The package name for the platform carrier config app, bundled with system image. -->
-    <string name="platform_carrier_config_package" translatable="false">com.android.carrierconfig</string>
+    <string name="platform_carrier_config_package" translatable="false">com.google.android.carrier</string>
 
     <!-- Flag indicating whether the TelephonyConnectionService supports the handover of calls from
          the TelephonyConnectionService to another ConnectionService defined in the system.
